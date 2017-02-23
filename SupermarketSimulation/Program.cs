@@ -4,11 +4,7 @@
 //
 //      File Name:    Program.cs
 //
-//         Course:    CSCI 2210-001: Data Structures
-//
 //         Author:    Nicholas Yoder
-//
-//        Contact:    yoderna@etsu.edu
 //
 //    Description:    This file contains the entry point of the application. It presents the user with
 //                    a console menu interface to set variables related to the simulation.

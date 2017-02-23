@@ -4,21 +4,17 @@
 //
 //      File Name:    Event.cs
 //
-//         Course:    CSCI 2210-001: Data Structures
-//
 //         Author:    Nicholas Yoder
-//
-//        Contact:    yoderna@etsu.edu
 //
 //    Description:    This file contains the Event class declaration, which represents an event in the
 //                    simulation. It can be one of two types:
 //
-//                        ENTER: Occurs when a new customer enters the back of a checkout line.
+//                      ENTER: Occurs when a new customer enters the back of a checkout line.
 //
-//                         EXIT: Occurs when a customer exits a checkout line.
+//                      EXIT: Occurs when a customer exits a checkout line, after having been served.
 //
-//                      Along with this information, the Event class contains the time at which the event
-//                      occurred and a reference to the Customer object that caused the event.
+//                    Along with this information, the Event class contains the time at which the event
+//                    occurred and a reference to the Customer object that caused the event.
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -72,7 +68,7 @@ namespace SupermarketSimulation
             }
             else if (!(other is Event))
             {
-                throw new ArgumentException();
+                throw new ArgumentException("Event objects can only be compared to other Event objects.");
             }
             else
             {

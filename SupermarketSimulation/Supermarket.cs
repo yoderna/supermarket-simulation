@@ -4,11 +4,7 @@
 //
 //      File Name:    Supermarket.cs
 //
-//         Course:    CSCI 2210-001: Data Structures
-//
 //         Author:    Nicholas Yoder
-//
-//        Contact:    yoderna@etsu.edu
 //
 //    Description:    This file contains the Supermarket class declaration, which represents the
 //                    supermarket in the simulation. It contains various public properties related
@@ -264,7 +260,7 @@ namespace SupermarketSimulation
             }
 
             // Determine the customer's entire length of wait in queue
-            TimeSpan serviceLength = exitEvent.TimeOfEvent - exitEvent.Patron.EnterQueueTime;
+            TimeSpan serviceLength = exitEvent.TimeOfEvent - exitEvent.Patron.EnqueueTime;
 
             if (serviceLength > longestServiceTime)
             {

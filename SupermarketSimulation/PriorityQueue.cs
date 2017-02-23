@@ -4,13 +4,9 @@
 //
 //      File Name:    PriorityQueue.cs
 //
-//    Description:    This file contains a linked list implementation of a generic priority queue
-//
-//         Course:    CSCI 2210-001: Data Structures
-//
 //         Author:    Nicholas Yoder
 //
-//        Contact:    yoderna@etsu.edu
+//    Description:    This file contains a linked list implementation of a generic priority queue
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
