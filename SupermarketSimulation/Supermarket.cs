@@ -47,7 +47,7 @@ namespace SupermarketSimulation
         public double ExpectedCheckoutTime { get; set; }
         #endregion
 
-        #region Properties For Simulation Statistics
+        #region Private Fields For Simulation Statistics
         /// <summary>
         /// The longest amount of time between a customer entering and exiting a checkout line
         /// </summary>
